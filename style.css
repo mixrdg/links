@@ -82,6 +82,7 @@ a{
             width: 80%;
             border: solid 4px rgb(4, 253, 33);
             border-radius: 25px;
+            transition: background-color 1s;
         }
         
             a:hover{
