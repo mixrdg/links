@@ -7,7 +7,7 @@
 }
 
 body{
-    
+    overflow: hidden;
     background: url(https://i.postimg.cc/cJFm9rRP/background006.jpg);
     background-size: cover;
     background-repeat: no-repeat;
