@@ -74,12 +74,12 @@ a{
         
         }
         a{
-            font-size: 26px;
+            font-size: 20px;
             color: white;
             text-align: center;
             height: 35px;
             margin: 20px auto;
-            width: 80%;
+            width: 100%;
             border: solid 4px rgb(4, 253, 33);
             border-radius: 25px;
             transition: background-color 1s;
