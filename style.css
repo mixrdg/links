@@ -12,7 +12,7 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background: ;
+   
     
 }
 
@@ -23,7 +23,7 @@ body{
 }
 .conteudo{
     padding: 50px;
-     margin: auto;
+    margin: auto;
     width: 50%;
     background-color: rgba(0, 0, 0, 0);
     display: flex;
@@ -44,18 +44,20 @@ a{
     width: 80%;
     border: solid 4px rgb(4, 253, 33);
     border-radius: 25px;
+    
 }
 
     a:hover{
 
         border: solid white;
         background-color:rgb(3, 129, 17); 
+        transition:background-color 1s;
     }
 
         /*Responsivo*/
     @media screen and (max-width: 800px){
         #pai{
-            height: 110vh;
+            height: 100vh;
             margin: -35px auto;
             background-color: rgba(14, 14, 14, 0.33);
         }
@@ -77,16 +79,18 @@ a{
             color: white;
             text-align: center;
             height: 35px;
-            margin: 20px auto;
+            margin-top: 8px;
             width: 100%;
             border: solid 4px rgb(4, 253, 33);
             border-radius: 25px;
+            transition: none;
         }
         
             a:hover{
         
                 border: solid white 4px;
                 background-color:rgb(3, 129, 17); 
+                transition: none;
             }
         
     }
